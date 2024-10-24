@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tienda Abarrotes Liz</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Tienda Abarrotes Liz</h1>
+        <div>
+            <!--Aqui emepieza  el formulario-->
+            <form id="action"action="https://formsubmit.co/lizethvargastecajete@gmail.com"method="post">
+
+            <label for="fecha">Fecha:</label>
+            <input type="date" id="fecha" name="fecha"><br><br>
+            <label for="cliente">Nombre cliente:</label>
+            <input type="text" id="cliente" name="cliente">
+        </div>
+
+        <!-- Sección de Lácteos -->
+        <div class="section">
+            <h3>Lácteos</h3>
+            <input type="checkbox" id="queso_oaxaca" name="queso_oaxaca"> Queso Oaxaca<br>
+            <input type="checkbox" id="queso_panela" name="queso_panela"> Queso Panela<br>
+            <input type="checkbox" id="crema" name="crema"> Crema<br>
+            <input type="checkbox" id="queso_rallado" name="queso_rallado"> Queso Rallado<br>
+            <input type="checkbox" id="leche" name="leche"> Leche<br>
+            <input type="checkbox" id="crema_lactea" name="crema_lactea"> Crema<br>
+            <input type="checkbox" id="yogurt" name="yogurt"> Yogurt<br>
+            <input type="checkbox" id="danoninos" name="danoninos"> Danoninos<br>
+        </div>
+
+        <!-- Sección de Limpieza -->
+        <div class="section">
+            <h3>Limpieza</h3>
+            <input type="checkbox" id="cloro" name="cloro"> Cloro<br>
+            <input type="checkbox" id="pino" name="pino"> Pino<br>
+            <input type="checkbox" id="fabuloso" name="fabuloso"> Fabuloso<br>
+            <input type="checkbox" id="jabon_roma" name="jabon_roma"> Jabón Roma<br>
+            <input type="checkbox" id="jabon_ariel" name="jabon_ariel"> Jabón Ariel<br>
+        </div>
+
+        <!-- Sección de Alimentos Enlatados -->
+        <div class="section">
+            <h3>Alimentos Enlatados</h3>
+            <input type="checkbox" id="chiles" name="chiles"> Chiles<br>
+            <input type="checkbox" id="atun" name="atun"> Atún<br>
+            <input type="checkbox" id="frijoles" name="frijoles"> Frijoles<br>
+            <input type="checkbox" id="frutas" name="frutas"> Frutas<br>
+            <input type="checkbox" id="verduras" name="verduras"> Verduras<br>
+        </div>
+
+        <!-- Formulario de contacto para enviar correos -->
+    
+        <form id="miFormulario" action="https://formsubmit.co/lizethvargastecajete@gmail.com" method="POST">
+          <button  onclick="enviarFormulario()">Enviar</button>
+        </form>
+    </div>
+
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
